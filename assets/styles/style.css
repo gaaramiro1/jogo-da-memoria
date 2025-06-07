@@ -98,8 +98,8 @@ body{
     margin:5px;
 }
 #gameBoard img{
-    width:75px;
-    height:75px;
+    width: 75px;
+    height: 75px;
 }
     
     .card{
@@ -109,4 +109,11 @@ body{
     transform-style: preserve-3d;
     transition: transform .5s;
     }
+    .card_front img{
+        width: 75px;
+        height: 75px;
+    
+
+}
+    
 }

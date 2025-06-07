@@ -93,7 +93,7 @@ body{
     
     max-width: 460px
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr/  1fr 1fr 1fr 1fr;
     gap: 10px;
 }
     .card{

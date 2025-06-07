@@ -88,8 +88,12 @@ body{
 }
 
 @media (max-width: 700px) {
+  
     #gameBoard{
-        display:flex;
-        flex-wrap:wrap;
-    }
+    
+    max-width: 460px
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
 }
